@@ -1,4 +1,4 @@
-module MODLAND
+module Modland
 
 import ArchGDAL as AG
 import ArchGDAL
