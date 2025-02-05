@@ -1,4 +1,4 @@
-# MODLAND.jl
+# Modland.jl
 
 MODIS/VIIRS Sinusoidal Land Tile Utilities for Julia
 
