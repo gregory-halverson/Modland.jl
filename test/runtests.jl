@@ -23,8 +23,8 @@ end
     @test sinusoidal_to_MODLAND(3.538204887918666e6, 5.003777338949354e6) == "h21v04"
     
     # Test with out-of-bounds sinusoidal coordinates
-    @test_throws ErrorException sinusoidal_to_MODLAND(UPPER_LEFT_X_METERS - 1, 0.0)
-    @test_throws ErrorException sinusoidal_to_MODLAND(LOWER_RIGHT_X_METERS + 1, 0.0)
-    @test_throws ErrorException sinusoidal_to_MODLAND(0.0, LOWER_RIGHT_Y_METERS - 1)
-    @test_throws ErrorException sinusoidal_to_MODLAND(0.0, UPPER_LEFT_Y_METERS + 1)
+    @test_throws ErrorException sinusoidal_to_MODLAND(Modland.UPPER_LEFT_X_METERS - 1, 0.0)
+    @test_throws ErrorException sinusoidal_to_MODLAND(Modland.LOWER_RIGHT_X_METERS + 1, 0.0)
+    @test_throws ErrorException sinusoidal_to_MODLAND(0.0, Modland.LOWER_RIGHT_Y_METERS - 1)
+    @test_throws ErrorException sinusoidal_to_MODLAND(0.0, Modland.UPPER_LEFT_Y_METERS + 1)
 end
