@@ -1,4 +1,4 @@
-module MODLAND
+module Modland
 
 # MODLAND.jl: Utilities for working with MODIS land grid and projections
 # Provides functions to convert between latitude/longitude and MODIS sinusoidal projection,
